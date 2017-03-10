@@ -1,0 +1,20 @@
+{
+    "name": "brotherlu/just-give-me",
+    "description": "API Library for Social Media Platforms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Louay Cheikh",
+            "email": "brotherlu@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustGiveMe\\Twitter\\":"src/"
+        }
+    }
+}
